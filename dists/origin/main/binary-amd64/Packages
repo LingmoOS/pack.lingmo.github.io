@@ -811,6 +811,40 @@ Description: libcrypt shared library
  as well as a set of extended interfaces like 'crypt_gensalt'.
 Important: yes
 
+Package: libcute
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <cuteos@foxmail.com>
+Installed-Size: 3842
+Depends: libc6 (>= 2.14), libcanberra0 (>= 0.16), libgcc-s1 (>= 3.0), libkf5bluezqt6 (>= 5.77.0), libkf5coreaddons5 (>= 4.97.0), libkf5networkmanagerqt6 (>= 5.69.0), libkf5screen-bin (>= 4:5.17.5~), libkf5screen7 (>= 4:5.17.5), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.7.0) | libqt5quick5-gles (>= 5.7.0), libqt5sensors5 (>= 5.6.0), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 5)
+Filename: pool/main/l/libcute/libcute_1.0.0_amd64.deb
+Size: 649892
+MD5sum: b41d6e5812566e6ffafa662e731b677c
+SHA1: 641d047f1c63d9207a10290f2ff49ad37054d44f
+SHA256: 33dcf09aa5347a388d38cbe45d1a5bdc6e7b84f235d14b4cbcd834890c71d935
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Library
+
+Package: libcute-dbgsym
+Source: libcute
+Version: 1.0.0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LingmoOS <cuteos@foxmail.com>
+Installed-Size: 1462
+Depends: libcute (= 1.0.0)
+Filename: pool/main/l/libcute/libcute-dbgsym_1.0.0_amd64.deb
+Size: 193112
+MD5sum: a93306ef829289e10c0e5ff1cbf349c1
+SHA1: 921b325df2353e3c834a33003d1cf2b889a5bac3
+SHA256: f68e6a882fcd173291f51e2c3f96c00ba41726c05bd123f350b02b5a33e9dece
+Section: debug
+Priority: optional
+Description: debug symbols for libcute
+Build-Ids: 452266c0e9a0e9b201506bc31cbbea60b9e9e455 4c819fb3096b045b434501b9e8abfc379e876eca 529be96431cb421247062b6dac776f17290cfdd6 7ad4137e5ee6c0e9785ee7635c4d5e5e957d87d4 96bc043898917f3695a2e67d74a56be66f838c45 ca2d7e9af2770202af0eeaf0c988327b95f5bca8 fa6087d414b458b1f0b2350bfa7ff3340b40b967
+
 Package: libgcc-s1
 Source: gcc-10
 Version: 10.2.1-6
