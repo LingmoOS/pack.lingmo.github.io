@@ -1090,6 +1090,40 @@ Priority: optional
 Description: debug symbols for ling-updator
 Build-Ids: 321ee429627de27003d3a0a2834862dfea8c8d90
 
+Package: lingmoui
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Lingmo OS <support@cuteos.com>
+Installed-Size: 5155
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 5.69.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5qml5 (>= 5.4.0), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1)
+Filename: pool/main/l/lingmoui/lingmoui_1.0.0_amd64.deb
+Size: 760012
+MD5sum: b8a9591bee7161010342dd0cb7cc0045
+SHA1: 60a067337670a3af47a487c0125663cf7bb24e23
+SHA256: ae6e8ead62855dbda0ff12c0e06d758610d8db0dfd6e0a7c8ff0c01a12f99764
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org/
+Description: Lingmo OS UIKit
+
+Package: lingmoui-dbgsym
+Source: lingmoui
+Version: 1.0.0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Lingmo OS <support@cuteos.com>
+Installed-Size: 263
+Depends: lingmoui (= 1.0.0)
+Filename: pool/main/l/lingmoui/lingmoui-dbgsym_1.0.0_amd64.deb
+Size: 41096
+MD5sum: 58ba044cda39ca7874a25d4149359729
+SHA1: 26402e42a476ea466fb43a5eded4c94e0c5f1944
+SHA256: 82940df6670fd1c7abe1ce3e58797ff0efb8bab73bce4b9af1c5b7033de62ef8
+Section: debug
+Priority: optional
+Description: debug symbols for lingmoui
+Build-Ids: 57015e949b66bba220b8a75d2ac2efcf910ee4e3
+
 Package: linux-compiler-gcc-10-x86
 Source: linux
 Version: 5.10.179-3
