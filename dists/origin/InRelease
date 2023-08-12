@@ -4,38 +4,38 @@ Hash: SHA512
 Architectures: amd64
 Codename: origin
 Components: main
-Date: Sat, 12 Aug 2023 21:24:20 +0000
+Date: Sat, 12 Aug 2023 21:48:36 +0000
 Description: Official software package repository for Lingmo OS
 Label: Lingmo OS Packages
 Origin: Lingmo OS Official Repository
 Suite: main
 MD5Sum:
- e8447d9e5391a312a72802cb3f1bd76b              233 Release
- b35b9c37509b2e1e94721b2257092743            70430 main/binary-amd64/Packages
- 198b77b2074e71b4daab9ff8cfb082dc            21985 main/binary-amd64/Packages.gz
+ 177a71c597b464bd39e99920be945dfc              233 Release
+ 7eef125e65d6e762b3b00bfdc7157105            70549 main/binary-amd64/Packages
+ 282d3374a74a74709be5edc0b3a5f13e            21937 main/binary-amd64/Packages.gz
 SHA1:
- 6a917f469a56a3de4e48f9d5b337fe09113b1aaa              233 Release
- 34afdebf09c3569ceb1e4cf96bca8c458b47a53f            70430 main/binary-amd64/Packages
- 0e0e0edaef1f00bd8412b765c264aa91ba7fb571            21985 main/binary-amd64/Packages.gz
+ 1ef2de28392c5a6a1c82bc5f2171c171beee197a              233 Release
+ e662f71d8eb37e59b19285beb758ee520b73f615            70549 main/binary-amd64/Packages
+ c83983a5bfbd5bb6d4d6f003c3824ac25c46e9fe            21937 main/binary-amd64/Packages.gz
 SHA256:
- 22908817b13e290a3ff6595a66f69c5cae2fd03f95377c16fe045832a9ae3644              233 Release
- 88cebeaad0d273366d23716a3f521237f583dc4cffa89009ef4ff9f257355839            70430 main/binary-amd64/Packages
- 3caf9926716a45b789f02d6e52c3a6eccbf24396e1f53c0f14a8482b0074d4a0            21985 main/binary-amd64/Packages.gz
+ 6bd4ec2de9aba4b0043d3d757b9ef1850af547cef3d4b15e4f613c95798fedcb              233 Release
+ 6bf8a22473810838f758a58e6c96bb3517994430f7e644f3e41854066134f19c            70549 main/binary-amd64/Packages
+ c05a16b328fb854e65c00e9e2ec76bac2953e67b8b47fc9e7d622e813fd2c71e            21937 main/binary-amd64/Packages.gz
 SHA512:
- 6bf3099f948810700edd24f5f79a48c05f14b3c55b898c250c921cacd3c69466b18d0646e734be5e5f7ae87c5c86648c7c96975684fbe4ee23f37e8768bc7ccb              233 Release
- 424db59007c2cdf5c0598d54182e392d8313a3c8f0237efd48e55729a1f360372424c7354db68a647b242c28fa9a015ceb5331b4ac76fb3267fa4dc812674506            70430 main/binary-amd64/Packages
- 841b77b4faaca18175310cf45a690c3d5be696c3f852a3cda49dc4167b2d3a89252fa091af1fd1786aa8fdb102e6b60270c0c88eaab3cc12e68161aeb1a00f30            21985 main/binary-amd64/Packages.gz
+ fe9fd4d1ddea261425cb6bd37ad57946b6ddd87dc5e18adbe193abe12424b8d139452da16193ed26b7980914eb7ec9013d2d35f7ced46224ca8963a706c35440              233 Release
+ 819027c760823f6576f0453e441c365ce8422a341bfadc2c8d927c853a1e2be48ac100313a66c21a4df12b3a58ed3c4cd925f2ccfebec5d570de8b896d2b62bb            70549 main/binary-amd64/Packages
+ e5f117a8a6f21e1eac38fad8c7cc7e3e0c8efd5211aa6fa1d5699b7a388d16dda34c92762aba0166e14fe16314620ecf7489ccaddc65fa9ba8651f68c16328e6            21937 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEE4UnaveaIxz5GL3DWO8mc0oxorgFAmTX+IQACgkQWO8mc0ox
-orhZdAwAmaHi+SSvKorNb6IbYWSifMhI9MZ64TZISVazjYReMHLNaJMgqQOYxT5h
-mKqa/eraKTlBFM9EradqE07beNRxQJsQXjMOffKa/X4kTgiT6uTVVZd60gyP1g/T
-46nL0tY3O9TVDUg4pQuVBi2VYM3rflceSlVCDQVWyL5aW+safrGjAKeVAlOpg6Lx
-OKFsihu1xASTuaLOcX4St5i856SKlsQ1kNdNCKC5N5b8Mfu8XU3zMSZ0H97UhCYF
-UlNufgfssk4QbfIGAhlCC3aoe+yw+jdMVsIZhQKQhd9bi2ok5kqrks+UNjvmP2AJ
-eghyY7nmx+Oz0d7oncTVXLV0sJxYTaqhuRFLKK3YqHhj+W98Wzj62UX4PHsMD6Pa
-jKCibMuIoX6BrJ+ehP65W7XRTfhvDHkJfwY7QxmfpX9aCyz5pLMH1pNv4I6/OzCS
-OklOwutbfdyUjwk5usH57FCY5x2PIkGZh4aADjLP/l3QOwbH874lmUD1tdc/cVv9
-c7FPLatk
-=hbOm
+iQGzBAEBCgAdFiEEE4UnaveaIxz5GL3DWO8mc0oxorgFAmTX/jYACgkQWO8mc0ox
+oriUIQv+OXSYKk9ASvTuIEHkIATGqUyreStpbFF8v2R2xBZhhe2qKs2fr2md1AXI
+HX3kMLDT0yskQZHXsClEnriDH5uf+TMCxF9KZuvm7G0ENa9J/58+mwgQS/q6QLhP
+WRGMo98ZM827DJT+Tck20ES86FwSGaiLkfZUPsEA/6b5zZ0s4pGlgCm2aCURzUj3
+ozq9Z/MMC7GJOzEdRdj/K5AT2d3vMPBwQmRAKp5/d0/bRJDbZtUmqX5i8Yn5+Psi
+40jUy5AmWMay6fYsYD/PgiApyeER6LEpG+W2lZrvIndC60f8ss07lwSq1oRKmA0p
+ermc5tqC15kjSx53aJ78DqaggNDRzOBF0xgm/UiQ+r09Wn9WFqxpNUEVK8u1xAjX
+CQmpM7+KUgp4Mg94NIXu65Haih7do4YFg7JEucbs11Xec73rdsHp72Al+dS7/Fvb
+xy2VnxVZGRAJ+U9xik2H2Q2fjkZ6mvMMfRdiskj9ui5Y0fpOh6+5KprNwLVdDXod
+ZiwrQvJ9
+=Oo7a
 -----END PGP SIGNATURE-----

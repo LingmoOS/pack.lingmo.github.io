@@ -480,7 +480,7 @@ Architecture: amd64
 Maintainer: LingmoOS <cuteos@foxmail.com>
 Installed-Size: 494
 Depends: libc6 (>= 2.29), libdbusmenu-qt5-2 (>= 0.3.2), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 5.69.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5quickcontrols2-5 (>= 5.7.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xdgiconloader3 (>= 2.0.0), libstdc++6 (>= 5), qtbase-abi-5-15-2
-Filename: pool/main/c/cute-qt-pugins/cute-qt-plugins_1.0.0_amd64.deb
+Filename: pool/main/c/cute-qt-plugins/cute-qt-plugins_1.0.0_amd64.deb
 Size: 144608
 MD5sum: 354be9516b9a5bce7419f18e9c638658
 SHA1: beb87572a6f1483a4778d302800b143db321ee95
@@ -498,7 +498,7 @@ Architecture: amd64
 Maintainer: LingmoOS <cuteos@foxmail.com>
 Installed-Size: 3793
 Depends: cute-qt-plugins (= 1.0.0)
-Filename: pool/main/c/cute-qt-pugins/cute-qt-plugins-dbgsym_1.0.0_amd64.deb
+Filename: pool/main/c/cute-qt-plugins/cute-qt-plugins-dbgsym_1.0.0_amd64.deb
 Size: 3742796
 MD5sum: 8097cc4c5182f180e6741625bfa28091
 SHA1: 0b857bc9280a1d16f05f8f532b43c312f3e3cf60
@@ -630,35 +630,17 @@ Package: cute-terminal
 Version: 1.0.0
 Architecture: amd64
 Maintainer: LingmoOS <2422586862@qq.com>
-Installed-Size: 962
-Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libcute, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Installed-Size: 1314
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, libcute, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
 Filename: pool/main/c/cute-terminal/cute-terminal_1.0.0_amd64.deb
-Size: 248372
-MD5sum: e4307e87be4787b4087c1e6930d35b5e
-SHA1: 19df55c4fcbd74407f643433f7f7978bffe2258e
-SHA256: d9a1cd9e7a96e4eaba4e3455a20c55c3fff34029f35bec4ffd8de599c7a7b72a
+Size: 274752
+MD5sum: 81b8c8ee5399454cd37f43a13cc984a0
+SHA1: 984a66ec6d452da9ff72b1d8acc806e25e149506
+SHA256: 3ff5651adc9a3ac2219e51def763b71b5d5cc53ff62b9545995515bc64178cba
 Section: devel
 Priority: optional
 Homepage: https://lingmo.org
 Description: LingmoOS Terminal
-
-Package: cute-terminal-dbgsym
-Source: cute-terminal
-Version: 1.0.0
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: LingmoOS <2422586862@qq.com>
-Installed-Size: 4567
-Depends: cute-terminal (= 1.0.0)
-Filename: pool/main/c/cute-terminal/cute-terminal-dbgsym_1.0.0_amd64.deb
-Size: 4507172
-MD5sum: 9fd66d18bf66675609c9020a3bc1b02e
-SHA1: 5d988a5555d5b29523bbf929d61c224b4e1462f5
-SHA256: 262ee213c53c460b0b3a3fcaa284e1db919897183e50a5f38d4d1eb4fbb6877c
-Section: debug
-Priority: optional
-Description: debug symbols for cute-terminal
-Build-Ids: 30162949a8f74763184b2951675b96fe9f3a7731 d8ebac6031c19a309ed315c22ab8683c2aa0cd7c
 
 Package: cute-texteditor
 Version: 1.0.0
@@ -887,6 +869,23 @@ Section: debug
 Priority: optional
 Description: debug symbols for libcute
 Build-Ids: 452266c0e9a0e9b201506bc31cbbea60b9e9e455 4c819fb3096b045b434501b9e8abfc379e876eca 529be96431cb421247062b6dac776f17290cfdd6 7ad4137e5ee6c0e9785ee7635c4d5e5e957d87d4 96bc043898917f3695a2e67d74a56be66f838c45 ca2d7e9af2770202af0eeaf0c988327b95f5bca8 fa6087d414b458b1f0b2350bfa7ff3340b40b967
+
+Package: libcute-filemanager
+Source: cute-filemanager
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Lingmo OS <cuteos@foxmail.com>
+Installed-Size: 8
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, qml-module-qtgraphicaleffects
+Filename: pool/main/l/libcute-filemanager/libcute-filemanager_1.0.0_amd64.deb
+Size: 1444
+MD5sum: b0727829d603afdc11eee221441e3673
+SHA1: 0e0a2f13b52a869e6bb1e2240c1503f5ccd976ce
+SHA256: e7f0433df2987fe00480abe585d87fcbc0d8368aab160c3bbf48dded8b0266bc
+Section: devel
+Priority: optional
+Homepage: https://cuteos.com
+Description: Lingmo OS File Manager Lib
 
 Package: libgcc-s1
 Source: gcc-10
