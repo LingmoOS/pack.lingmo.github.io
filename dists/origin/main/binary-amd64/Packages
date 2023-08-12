@@ -391,6 +391,21 @@ Priority: optional
 Homepage: https://cuteos.com
 Description: Lingmo OS File Manager
 
+Package: cute-icons
+Version: 1.0.0
+Architecture: all
+Maintainer: Lingmo OS <2422586862@qq.com>
+Installed-Size: 42191
+Filename: pool/main/c/cute-icons/cute-icons_1.0.0_all.deb
+Size: 3138252
+MD5sum: bd43061d980e8b584303feae87e7692e
+SHA1: 9f80dda978784e109403779df17da9ee34f4c0f8
+SHA256: 3efc1db6cf100fd26b133610e7cdbfbf93768938a593820c850ac70dfb5773ce
+Section: x11
+Priority: optional
+Homepage: https://lingmo.org
+Description: System software icon for LingmoOS
+
 Package: cute-kwin-plugins
 Version: 1.0.0
 Architecture: amd64
