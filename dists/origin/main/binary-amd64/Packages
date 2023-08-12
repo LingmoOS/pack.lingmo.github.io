@@ -741,6 +741,34 @@ Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
  contained in the GNU Compiler Collection (GCC).
 
+Package: kwin-x11
+Source: kwin
+Version: 4:5.20.5-1
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 447
+Depends: kwin-common (= 4:5.20.5-1), libc6 (>= 2.14), libepoxy0 (>= 1.2), libgcc-s1 (>= 3.4), libkf5configcore5 (>= 5.74~), libkf5coreaddons5 (>= 5.74~), libkf5crash5 (>= 5.74~), libkf5i18n5 (>= 5.74~), libkf5quickaddons5 (>= 5.74~), libkf5windowsystem5 (>= 5.74~), libkwaylandserver5 (>= 5.20.4), libkwaylandserver5-5.20, libkwineffects12a (= 4:5.20.5-1), libkwinglutils12 (= 4:5.20.5-1), libkwinxrenderutils12 (= 4:5.20.5-1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.15.0~), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libqt5widgets5 (>= 5.15.0~), libqt5x11extras5 (>= 5.15.0~), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
+Breaks: kwin-addons (<< 4:5.14)
+Provides: kwin, x-window-manager
+Filename: pool/main/k/kwin-x11/kwin-x11_4%3a5.20.5-1_amd64.deb
+Size: 129056
+MD5sum: 58c9b074aa52d1a8772c888e806c2662
+SHA1: 6115a8ae45e81f47f0e8c1d3bb9942841c90791b
+SHA256: f183c3890276c0e2ebae4669671ccc6839dbe15f5b20c785417c3b80e59b7601
+Section: kde
+Priority: optional
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager, X11 version
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
 Package: libacl1
 Source: acl
 Version: 2.2.53-10
