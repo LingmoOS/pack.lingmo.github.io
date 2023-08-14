@@ -1,41 +1,34 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Architectures: amd64
-Codename: origin
-Components: main
-Date: Sat, 12 Aug 2023 21:48:36 +0000
-Description: Official software package repository for Lingmo OS
-Label: Lingmo OS Packages
-Origin: Lingmo OS Official Repository
-Suite: main
+Date: Mon, 14 Aug 2023 05:46:50 +0000
 MD5Sum:
- 177a71c597b464bd39e99920be945dfc              233 Release
+ 2be34ac87375ba03fa160b2cd219c20d               38 Release
  7eef125e65d6e762b3b00bfdc7157105            70549 main/binary-amd64/Packages
  282d3374a74a74709be5edc0b3a5f13e            21937 main/binary-amd64/Packages.gz
 SHA1:
- 1ef2de28392c5a6a1c82bc5f2171c171beee197a              233 Release
+ dd38268dab852c619d7041c0557083ffa25c2b42               38 Release
  e662f71d8eb37e59b19285beb758ee520b73f615            70549 main/binary-amd64/Packages
  c83983a5bfbd5bb6d4d6f003c3824ac25c46e9fe            21937 main/binary-amd64/Packages.gz
 SHA256:
- 6bd4ec2de9aba4b0043d3d757b9ef1850af547cef3d4b15e4f613c95798fedcb              233 Release
+ 6252b6c882c0336de7e1de6bd96634c6d73de2cedbeb46924b4cd74fe8ab04bc               38 Release
  6bf8a22473810838f758a58e6c96bb3517994430f7e644f3e41854066134f19c            70549 main/binary-amd64/Packages
  c05a16b328fb854e65c00e9e2ec76bac2953e67b8b47fc9e7d622e813fd2c71e            21937 main/binary-amd64/Packages.gz
 SHA512:
- fe9fd4d1ddea261425cb6bd37ad57946b6ddd87dc5e18adbe193abe12424b8d139452da16193ed26b7980914eb7ec9013d2d35f7ced46224ca8963a706c35440              233 Release
+ 43dda4b6b4976ccdea7de91a91323bf6df85313d7414160abbf993d37202698d710471f66305487d24b511b80e1e061f1fda1e9b472624d901aae4e7c14e276c               38 Release
  819027c760823f6576f0453e441c365ce8422a341bfadc2c8d927c853a1e2be48ac100313a66c21a4df12b3a58ed3c4cd925f2ccfebec5d570de8b896d2b62bb            70549 main/binary-amd64/Packages
  e5f117a8a6f21e1eac38fad8c7cc7e3e0c8efd5211aa6fa1d5699b7a388d16dda34c92762aba0166e14fe16314620ecf7489ccaddc65fa9ba8651f68c16328e6            21937 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEE4UnaveaIxz5GL3DWO8mc0oxorgFAmTX/jYACgkQWO8mc0ox
-oriUIQv+OXSYKk9ASvTuIEHkIATGqUyreStpbFF8v2R2xBZhhe2qKs2fr2md1AXI
-HX3kMLDT0yskQZHXsClEnriDH5uf+TMCxF9KZuvm7G0ENa9J/58+mwgQS/q6QLhP
-WRGMo98ZM827DJT+Tck20ES86FwSGaiLkfZUPsEA/6b5zZ0s4pGlgCm2aCURzUj3
-ozq9Z/MMC7GJOzEdRdj/K5AT2d3vMPBwQmRAKp5/d0/bRJDbZtUmqX5i8Yn5+Psi
-40jUy5AmWMay6fYsYD/PgiApyeER6LEpG+W2lZrvIndC60f8ss07lwSq1oRKmA0p
-ermc5tqC15kjSx53aJ78DqaggNDRzOBF0xgm/UiQ+r09Wn9WFqxpNUEVK8u1xAjX
-CQmpM7+KUgp4Mg94NIXu65Haih7do4YFg7JEucbs11Xec73rdsHp72Al+dS7/Fvb
-xy2VnxVZGRAJ+U9xik2H2Q2fjkZ6mvMMfRdiskj9ui5Y0fpOh6+5KprNwLVdDXod
-ZiwrQvJ9
-=Oo7a
+iQGzBAEBCgAdFiEElPzvChygj/Wha9gb3P4kI93qicAFAmTZwJkACgkQ3P4kI93q
+icAThgv/cUiocRnVotWHmZ2xm9vIjiasO80GP+Zl10duaPXkflfEbJzjEFefro60
++LwkC+JL5TL6yWUTyEtuAWcI4I3NdGb5hj3mSN/u1tA50pFrH/aSbm7pe+0HGTYM
+eCHoss5f5qswL60vr2t7ia3fN4KiP7b6r4J3q0DhoLQWtHLaSPvCfahVCo7f8A7L
+4JMQYr+VI50LmlhxN/MboCiXcNc2NQjjgY2P8Q9L+R8y3q02rsXxhHXh6gOjBGLT
+olLy9QMtLtABiGF9Dw24IoXL+jfMkTUpwNrp9ne+pd+MYRQhyLBF7VxZuJajO03K
+KyB0naeBvulhsUt+HHDZS4D21RIRFpYZ+HRq3spFleTsrC9fDODhGPalJQQHiW/H
+QI5V3Y0lo19ZaLDKwXCh/jSp+6yQNH+wONDLzYEvf/zAyUhgBLdOG2bi+uLqyU1B
+/kIA5lwJgSw/o6p7rFGfRCJfdmXTNMmsfK+qODNP7U/h1BFYbO1kF5QllU33aYtw
+6EEXgYwR
+=j3Xq
 -----END PGP SIGNATURE-----
