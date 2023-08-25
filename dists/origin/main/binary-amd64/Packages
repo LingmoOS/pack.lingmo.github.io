@@ -191,38 +191,38 @@ Description: debug symbols for cute-calculator
 Build-Ids: ddb1ce859ef6ac84281ba7fff23ccbecbbbc62f0
 
 Package: cute-core
-Version: 1.0.0
+Version: 1.0.6
 Architecture: amd64
-Maintainer: CuteOS <cuteos@foxmail.com>
-Installed-Size: 1553
-Depends: accountsservice, python3-dbus, python3-pillow, python3-regex, qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, appmenu-gtk2-module, appmenu-gtk3-module, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5coreaddons5 (>= 4.97.0), libkf5idletime5 (>= 4.96.0), libkf5windowsystem5 (>= 5.25.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6 (>= 2:1.2.99.901), libx11-xcb1 (>= 2:1.7.2), libxcb-composite0, libxcb-damage0, libxcb-dpms0, libxcb-image0 (>= 0.2), libxcb-record0, libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxtst6
-Filename: pool/main/c/cute-core/cute-core_1.0.0_amd64.deb
-Size: 340428
-MD5sum: b83723d8acb61ac1bfcab34ad52ec262
-SHA1: fa1f3d00b6efd296422625205cca093668b21937
-SHA256: 43430dce69cf8a4863abe6d94b8dbf05ff98e77fbc575309c71067737d6d3387
+Maintainer: LingmoOS Team <cuteos@foxmail.com>
+Installed-Size: 2055
+Depends: accountsservice, python3-dbus, python3-pillow, python3-regex, qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, appmenu-gtk2-module, appmenu-gtk3-module, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libkf5coreaddons5 (>= 4.97.0), libkf5idletime5 (>= 4.96.0), libkf5windowsystem5 (>= 5.25.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6 (>= 2:1.2.99.901), libx11-xcb1 (>= 2:1.7.2), libxcb-composite0, libxcb-damage0, libxcb-dpms0, libxcb-image0 (>= 0.2), libxcb-record0, libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxtst6
+Filename: pool/main/c/cute-core/cute-core_1.0.6_amd64.deb
+Size: 360512
+MD5sum: 90706747e5462f6225f6cf266796e2a9
+SHA1: 571e308dd3ad2804cde72fb6a4bd37b6d645616a
+SHA256: ebd4bef6bc258ae74619276d726b6ae7886355faf0dcfaf8c0bf33a09f413d81
 Section: devel
 Priority: optional
-Homepage: https://github.com/CuteOS/core
-Description: CuteOS System Components
+Homepage: https://github.com/LingmoOS/OpenLingmo
+Description: Lingmo System Components
 
 Package: cute-core-dbgsym
 Source: cute-core
-Version: 1.0.0
+Version: 1.0.6
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: CuteOS <cuteos@foxmail.com>
-Installed-Size: 15587
-Depends: cute-core (= 1.0.0)
-Filename: pool/main/c/cute-core/cute-core-dbgsym_1.0.0_amd64.deb
-Size: 15420496
-MD5sum: 2168941dea5ef07587ce704a97270646
-SHA1: 43dda057f78d376ce1a1288a9ad018dec8704164
-SHA256: d93d8f0e2beadb1ec3a15807e3b322d476b4e43eca62b3f72d4bf93dac0ee77c
+Maintainer: LingmoOS Team <cuteos@foxmail.com>
+Installed-Size: 1175
+Depends: cute-core (= 1.0.6)
+Filename: pool/main/c/cute-core/cute-core-dbgsym_1.0.6_amd64.deb
+Size: 154712
+MD5sum: cfc9fb127e80df9c38393d8a94f15669
+SHA1: d9ee807111089d2484ccdf9f03537d67ca802877
+SHA256: 7bb509322b5f53e20747962b81edd181a8bc9f481b64993fb5356095566465c3
 Section: debug
 Priority: optional
 Description: debug symbols for cute-core
-Build-Ids: 0af3cbec0c46bed541ec4cba26344e0994999ce2 1a95c62074fa702433b061464b880a1726422dda 21d6a0b0f7958afa7f244d11c3be2f32cf468337 26dc21c23f1089f1fcf19514873832db05a52a4a 28d19dfed57a56bf84d22918d04f6fa4e9e09cd5 34c4dd659dad6e473989bd0ba54421fa9b4d4b2f 36c07e5862368df857c532660260f0ab4477b48d 5a134abe6ccde76f562b5036172b82c39b39cbf9 5c49710a87195f9dc5b8b92cb4ffc67b913d3341 6cebcd2aadaaac0261e7de62846bbb8f206cefa4 7b13ad5017693ca8dfca1da19cb3ca4b02edd942 934b815c31cacbe13e4aa419380b4a3589f93cd7 b91042392f5438b6786d0846976331ba4072ceac e2c8c0dab4edb41b2245a13347ebb173f4a2284a
+Build-Ids: 13e8e19a1879a509e378ed3a8bbca5275b1d3d8a 1704c6f59786b4f52c5a10db7d4ebf91f7037169 2c9da9bcceb92285cc81e8637ce606e24de1b2ca 2d35832be47950c83810c38d7435caa00b171017 45d99a3eef125325bd50a565b7a640f7cde31d2a 4b91e596f7b13891451e6b523bf7730ce688f7ff 4d9c6e7f9f222b414c1a4d989683518e5e0202fa 585f4dddd520723762b1ff7d9043012d3f8311dc 952571f3c9a67d0d120b3d6c3af55baab9423921 ad013b145100bbe9d6c2d7d66c7283f1aa518c3f ad67add80ca095c22958ebee45df71a3300a7617 c346d4edfde3b871cb11e0e18978bc0a0282c485 d19bbd26a10dcb444d206784f99c505306b3d0d3 f7566d24eed494a0cbf55c0330ff81902042a34e
 
 Package: cute-cursor-themes
 Version: 1.0.0
@@ -643,16 +643,16 @@ Homepage: https://lingmo.org
 Description: LingmoOS Terminal
 
 Package: cute-texteditor
-Version: 1.0.0
+Version: 1.0.6
 Architecture: amd64
 Maintainer: LingmoOS Packaging Team <2422586862@qq.com>
-Installed-Size: 169
+Installed-Size: 225
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5syntaxhighlighting5 (>= 5.28.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.1.0) | libqt5quick5-gles (>= 5.1.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
-Filename: pool/main/c/cute-texteditor/cute-texteditor_1.0.0_amd64.deb
-Size: 47344
-MD5sum: d8a4776e8d26eed6398bb58b4af2743c
-SHA1: e961ba1c3d57be00cba45d3625965cd67d36e2d3
-SHA256: 30d5722cabfee3ae9e12548291918d45d3728c7c8f8db50b8d488173aefe623a
+Filename: pool/main/c/cute-texteditor/cute-texteditor_1.0.6_amd64.deb
+Size: 53172
+MD5sum: bd5f5f8af002dc3dacd26900c927ba52
+SHA1: bc08015fdec68ef2878f4ad017c2263690526538
+SHA256: ce14d7509826cb0aae5554b233e03b0c065ef8eac05d2b8063a3623d06d65b0e
 Section: devel
 Priority: optional
 Homepage: https://github.com/LingmoOS/texteditor
@@ -660,21 +660,21 @@ Description: LingmoOS Texteditor
 
 Package: cute-texteditor-dbgsym
 Source: cute-texteditor
-Version: 1.0.0
+Version: 1.0.6
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: LingmoOS Packaging Team <2422586862@qq.com>
-Installed-Size: 960
-Depends: cute-texteditor (= 1.0.0)
-Filename: pool/main/c/cute-texteditor/cute-texteditor-dbgsym_1.0.0_amd64.deb
-Size: 928836
-MD5sum: eb8511a6c954750bc2594f1d7532e1c6
-SHA1: 3dd9c712b4a01f584c005b4a4f84dbb4ecd7091d
-SHA256: 746029f97f6b99a40599768d1ce7a4d7174c1ed20cc54bcef510636e86d0481a
+Installed-Size: 140
+Depends: cute-texteditor (= 1.0.6)
+Filename: pool/main/c/cute-texteditor/cute-texteditor-dbgsym_1.0.6_amd64.deb
+Size: 23680
+MD5sum: 10ed722d8679430afb232ff8464c0eb6
+SHA1: 80eadbedf9f0fad91e6fc800c0e246f113087622
+SHA256: 112e00a6d6bcb47d40f2a09fb8d7ae6e7f0f053c642fcf6d65902ffe3d75ab8f
 Section: debug
 Priority: optional
 Description: debug symbols for cute-texteditor
-Build-Ids: 6c1876ded6d3b21befc6ee0493d50af97acc99ac
+Build-Ids: c5685b989cb3ee76130a5beb660d6957afaca6ed
 
 Package: dbus-user-session
 Source: dbus
@@ -1066,16 +1066,16 @@ Description: shared low-level terminfo library for terminal handling
  This package contains the shared low-level terminfo library.
 
 Package: ling-settings
-Version: 1.0.0
+Version: 1.0.6
 Architecture: amd64
 Maintainer: LingmoOS <cuteos@foxmail.com>
 Installed-Size: 8
 Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, qml-module-qtquick-particles2, kscreen
-Filename: pool/main/l/ling-settings/ling-settings_1.0.0_amd64.deb
-Size: 1636
-MD5sum: ed32ca9823c234666bd5f246a2e0cb43
-SHA1: 025afa19f10906c01595ab6efc486e9dba2b0f01
-SHA256: 13b07c5ef9a3936fa7b147a7679f8951f2df3a0d6efa8cb6a7acdea0661494bf
+Filename: pool/main/l/ling-settings/ling-settings_1.0.6_amd64.deb
+Size: 1676
+MD5sum: 1ea2203a103c8ad02f352d8fd9291d55
+SHA1: 3b9b6769c45986e3a812351af67b7ff13af10347
+SHA256: 8bcd7ddfbfe04664ac7abeef1887b220c0f8b2e0adbd73c4109f86ab5b7bb837
 Section: devel
 Priority: optional
 Homepage: https://lingmo.org
@@ -1083,32 +1083,32 @@ Description: OpenSwift Settings
 
 Package: ling-settings-dev
 Source: ling-settings
-Version: 1.0.0
+Version: 1.0.6
 Architecture: amd64
 Maintainer: LingmoOS <cuteos@foxmail.com>
 Installed-Size: 8
-Depends: ling-settings (= 1.0.0)
-Filename: pool/main/l/ling-settings/ling-settings-dev_1.0.0_amd64.deb
-Size: 1576
-MD5sum: 202fb4bd276e38c7d45619ed5a063af2
-SHA1: 1fe47c61e935db59ea1ed44162f740296136164f
-SHA256: ef6858171645ec62fc86813fb8281eb6be0563b6198bdb3d5cfeaa56a1a3101b
+Depends: ling-settings (= 1.0.6)
+Filename: pool/main/l/ling-settings/ling-settings-dev_1.0.6_amd64.deb
+Size: 1608
+MD5sum: c4749842aa4200687fb3c1887ac01174
+SHA1: 0cb3c7d738fbfe9b70e851ce68500c11f5e22590
+SHA256: df9e595be84acca424e7f88783f647793fe59c60a4ed9fa204edea58ce1a6e5b
 Section: devel
 Priority: optional
 Homepage: https://lingmo.org
 Description: LingmoOS Settings Dev
 
 Package: ling-updator
-Version: 1.0.1
+Version: 1.0.6
 Architecture: amd64
 Maintainer: Lingmo OS <cuteos@foxmail.com>
-Installed-Size: 350
+Installed-Size: 374
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libstdc++6 (>= 4.1.1)
-Filename: pool/main/l/ling-updator/ling-updator_1.0.1_amd64.deb
-Size: 289144
-MD5sum: cd8c177cdbb4cf64edbcb9ae714ba510
-SHA1: 5c1ae1484979fffb7564e9fff0b6851c8694c157
-SHA256: 3ab3e376ba6d625b5cbca11c60956fe10ce66f9fcbabd7c53aa6133606ecbf4c
+Filename: pool/main/l/ling-updator/ling-updator_1.0.6_amd64.deb
+Size: 292800
+MD5sum: 6d9750a9e7d6f2a260a3d5f05f97dc94
+SHA1: 0cbe209cf05d87c4fb0c9bfd05966ecf59ed7d1a
+SHA256: cb084a810f8fd583bea33981ced1a1faa049228901d6696c9fd00d5f90f50978
 Section: devel
 Priority: optional
 Homepage: https://lingmo.org
@@ -1116,21 +1116,21 @@ Description: LingmoOS Updator.
 
 Package: ling-updator-dbgsym
 Source: ling-updator
-Version: 1.0.1
+Version: 1.0.6
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Lingmo OS <cuteos@foxmail.com>
-Installed-Size: 580
-Depends: ling-updator (= 1.0.1)
-Filename: pool/main/l/ling-updator/ling-updator-dbgsym_1.0.1_amd64.deb
-Size: 562696
-MD5sum: 622d6eaa22096ba73cad7736de0e4518
-SHA1: fa8c9acaa2abe64287267d6ccb73df23967c4648
-SHA256: f9bfc9dd04e4d3af62d2c70311a4efb00b1a0f5e1c486a488ec558dcd131bd27
+Installed-Size: 62
+Depends: ling-updator (= 1.0.6)
+Filename: pool/main/l/ling-updator/ling-updator-dbgsym_1.0.6_amd64.deb
+Size: 11448
+MD5sum: a81831fdd4c7771fce5b8ad6ce99deeb
+SHA1: 3672110714e3a4cf6e6ac6247fad685e45a9c72c
+SHA256: 5a8cfb250b89249a061b6c35d2cd461a269b987885eeb9a88889e5def6d00a7e
 Section: debug
 Priority: optional
 Description: debug symbols for ling-updator
-Build-Ids: 321ee429627de27003d3a0a2834862dfea8c8d90
+Build-Ids: 2dda769fb171abcc9ea256d1f2d8fcdcd82ea292
 
 Package: lingmoui
 Version: 1.0.0
