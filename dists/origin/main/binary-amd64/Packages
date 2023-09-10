@@ -87,7 +87,7 @@ Depends: bind9-libs (>= 1:9.16.42), libc6 (>= 2.14), libidn2-0 (>= 2.0.0)
 Breaks: bind-host (<< 1:9.13.6~)
 Replaces: bind-host (<< 1:9.13.6~)
 Provides: host
-Filename: pool/main/b/bind9/bind9-host_1%3a9.16.42-1~deb11u1_amd64.deb
+Filename: pool/main/b/bind9/bind9-host_1-3a9.16.42-1~deb11u1_amd64.deb
 Size: 310248
 MD5sum: 84cf02ba7cf311f4f5af5948928ec721
 SHA1: c0ea0ebdf5af24464a8a790f9fe4e28035611392
@@ -108,7 +108,7 @@ Installed-Size: 3776
 Depends: libuv1 (>= 1.40.0), libc6 (>= 2.17), libfstrm0 (>= 0.2.0), libgssapi-krb5-2 (>= 1.17), libjson-c5 (>= 0.15), libkrb5-3 (>= 1.6.dfsg.2), liblmdb0 (>= 0.9.7), libmaxminddb0 (>= 1.3.0), libprotobuf-c1 (>= 1.0.1), libssl1.1 (>= 1.1.0), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
 Breaks: bind-libs (<< 1:9.13.6~)
 Replaces: bind-libs (<< 1:9.13.6~)
-Filename: pool/main/b/bind9/bind9-libs_1%3a9.16.42-1~deb11u1_amd64.deb
+Filename: pool/main/b/bind9/bind9-libs_1-3a9.16.42-1~deb11u1_amd64.deb
 Size: 1427248
 MD5sum: 1a95f8b0b5a711fdfb6869ad8065dbda
 SHA1: 991aa955a8ec74e8e5ca1953d1a47456968f81e2
@@ -134,7 +134,7 @@ Depends: libc6 (>= 2.28)
 Conflicts: busybox-static
 Breaks: initramfs-tools (<< 0.99)
 Replaces: busybox-static
-Filename: pool/main/b/busybox/busybox_1%3a1.30.1-6+b3_amd64.deb
+Filename: pool/main/b/busybox/busybox_1-3a1.30.1-6+b3_amd64.deb
 Size: 434636
 MD5sum: 304bfd1b9ba51b0bbdf8bdc1b3adcda7
 SHA1: d9a44e97f46d0a992b82c07416281ef6071175db
@@ -747,7 +747,7 @@ Installed-Size: 447
 Depends: kwin-common (= 4:5.20.5-1), libc6 (>= 2.14), libepoxy0 (>= 1.2), libgcc-s1 (>= 3.4), libkf5configcore5 (>= 5.74~), libkf5coreaddons5 (>= 5.74~), libkf5crash5 (>= 5.74~), libkf5i18n5 (>= 5.74~), libkf5quickaddons5 (>= 5.74~), libkf5windowsystem5 (>= 5.74~), libkwaylandserver5 (>= 5.20.4), libkwaylandserver5-5.20, libkwineffects12a (= 4:5.20.5-1), libkwinglutils12 (= 4:5.20.5-1), libkwinxrenderutils12 (= 4:5.20.5-1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.15.0~), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libqt5widgets5 (>= 5.15.0~), libqt5x11extras5 (>= 5.15.0~), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
 Breaks: kwin-addons (<< 4:5.14)
 Provides: kwin, x-window-manager
-Filename: pool/main/k/kwin-x11/kwin-x11_4%3a5.20.5-1_amd64.deb
+Filename: pool/main/k/kwin-x11/kwin-x11_4-3a5.20.5-1_amd64.deb
 Size: 129056
 MD5sum: 58c9b074aa52d1a8772c888e806c2662
 SHA1: 6115a8ae45e81f47f0e8c1d3bb9942841c90791b
@@ -820,7 +820,7 @@ Maintainer: Marco d'Itri <md@linux.it>
 Installed-Size: 226
 Depends: libc6 (>= 2.25)
 Replaces: libc6 (<< 2.29-4)
-Filename: pool/main/l/libcrypt/libcrypt1_1%3a4.4.18-4_amd64.deb
+Filename: pool/main/l/libcrypt/libcrypt1_1-3a4.4.18-4_amd64.deb
 Size: 87504
 MD5sum: d7fd14a5ed9019abe12024988b23bf30
 SHA1: f1e882c53ef17beb9f3fbcb910248bb32fc06fdf
@@ -1132,6 +1132,21 @@ Priority: optional
 Description: debug symbols for ling-updator
 Build-Ids: 2dda769fb171abcc9ea256d1f2d8fcdcd82ea292
 
+Package: ling-wallpapers
+Version: 1.0.6
+Architecture: amd64
+Maintainer: Lingmo OS Team <cuteos@foxmail.com>
+Installed-Size: 2002
+Filename: pool/main/l/ling-wallpapers/ling-wallpapers_1.0.6_amd64.deb
+Size: 1986208
+MD5sum: b6aa41d1cfaaa208184f5de058e29624
+SHA1: 438912874ad77de4429f30c14e669482dc8ba967
+SHA256: 60cb3c96e5a1ea05ed3040fd8f17b217199b8798b5cb75600860ea51644217fa
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org/
+Description: Lingmo OS Wallpapers
+
 Package: lingmoui
 Version: 1.0.0
 Architecture: amd64
@@ -1281,7 +1296,7 @@ Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Installed-Size: 177
 Depends: libldb2 (= 2:2.2.3-2~deb11u2), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14), libpython3.9 (>= 3.9.1), libtalloc2 (>= 2.3.1~)
-Filename: pool/main/p/python3-ldb/python3-ldb_2%3a2.2.3-2~deb11u2_amd64.deb
+Filename: pool/main/p/python3-ldb/python3-ldb_2-3a2.2.3-2~deb11u2_amd64.deb
 Size: 46400
 MD5sum: f9eac958034bf65e5b02c3dd5d4d5f7d
 SHA1: cfeaa8479d4d4755cba4452b99ca6ee64bfdcbf8
@@ -1358,7 +1373,7 @@ Installed-Size: 3286
 Depends: vim-common (= 2:8.2.2434-3+deb11u1), vim-runtime (= 2:8.2.2434-3+deb11u1), libacl1 (>= 2.2.23), libc6 (>= 2.29), libgpm2 (>= 1.20.7), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
 Suggests: ctags, vim-doc, vim-scripts
 Provides: editor
-Filename: pool/main/v/vim/vim_2%3a8.2.2434-3+deb11u1_amd64.deb
+Filename: pool/main/v/vim/vim_2-3a8.2.2434-3+deb11u1_amd64.deb
 Size: 1494176
 MD5sum: f74e7886b6610f74d06c789eeb144b9c
 SHA1: d32aaf82bd7eacdb4ed16ec4c5336fecedcb61f9
@@ -1386,7 +1401,7 @@ Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
 Installed-Size: 341
 Depends: xxd
 Recommends: vim | vim-gtk3 | vim-athena | vim-nox | vim-tiny
-Filename: pool/main/v/vim/vim-common_2%3a8.2.2434-3+deb11u1_all.deb
+Filename: pool/main/v/vim/vim-common_2-3a8.2.2434-3+deb11u1_all.deb
 Size: 226176
 MD5sum: 3735be2500835d518a17ed7380ed652b
 SHA1: fb737e7eae609a6235c28495428f6da24a4f933a
@@ -1411,7 +1426,7 @@ Installed-Size: 32134
 Recommends: vim | vim-gtk3 | vim-athena | vim-nox | vim-tiny
 Enhances: vim-tiny
 Breaks: vim-tiny (<< 2:8.2.2434-3+deb11u1)
-Filename: pool/main/v/vim/vim-runtime_2%3a8.2.2434-3+deb11u1_all.deb
+Filename: pool/main/v/vim/vim-runtime_2-3a8.2.2434-3+deb11u1_all.deb
 Size: 6226068
 MD5sum: f894b844b51acc2efe6d5a2e085564c3
 SHA1: 66d64e61158096661e869507eff2e6c9da667d1e
@@ -1511,7 +1526,7 @@ Installed-Size: 2347
 Depends: x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
 Replaces: xserver-xorg-core (<< 2:1.5.2)
-Filename: pool/main/x/xserver-common/xserver-common_2%3a1.20.11-1+deb11u6_all.deb
+Filename: pool/main/x/xserver-common/xserver-common_2-3a1.20.11-1+deb11u6_all.deb
 Size: 2283840
 MD5sum: 269fc792776b44a3e4a48d4176bd12de
 SHA1: e23a366db2cdf402bc6c0c6b3f06c9666da75bdc
@@ -1536,7 +1551,7 @@ Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
 Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
 Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
 Provides: xorg-input-abi-24, xorg-video-abi-24, xserver-xorg-video-modesetting
-Filename: pool/main/x/xserver-xorg-core/xserver-xorg-core_2%3a1.20.11-1+deb11u6_amd64.deb
+Filename: pool/main/x/xserver-xorg-core/xserver-xorg-core_2-3a1.20.11-1+deb11u6_amd64.deb
 Size: 3603124
 MD5sum: 11a64cb78d087f9374e8b22e55d6ac8c
 SHA1: 3d741c39506b37e65c53441789033e8c9d54bbf6
@@ -1565,7 +1580,7 @@ Installed-Size: 239
 Depends: libc6 (>= 2.3.4)
 Breaks: vim-common (<< 2:7.4.2347-1~)
 Replaces: vim-common (<< 2:7.4.2347-1~)
-Filename: pool/main/x/xxd/xxd_2%3a8.2.2434-3+deb11u1_amd64.deb
+Filename: pool/main/x/xxd/xxd_2-3a8.2.2434-3+deb11u1_amd64.deb
 Size: 192012
 MD5sum: b94692cf8627729c55dd62e137433091
 SHA1: 384e125cdbe0d3daef5df720326588592812ebef

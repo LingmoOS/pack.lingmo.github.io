@@ -1,0 +1,418 @@
+Package: appmotor
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <2422586862@qq.com>
+Installed-Size: 230
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0
+Filename: pool/preview/a/appmotor/appmotor_1.0.0_amd64.deb
+Size: 58644
+MD5sum: 6c9a2c4d413106c630665b44032ee321
+SHA1: 4c11838f1cb22ea9f8897a468b506b2e1f23dec0
+SHA256: 704ade940aac255f0126531ce5b2b97765393f229af749771cfcae76fec4a629
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Appmotor
+
+Package: liblingmo
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 3842
+Depends: libc6 (>= 2.14), libcanberra0 (>= 0.16), libgcc-s1 (>= 3.0), libkf5bluezqt6 (>= 5.77.0), libkf5coreaddons5 (>= 4.97.0), libkf5networkmanagerqt6 (>= 5.69.0), libkf5screen-bin (>= 4:5.17.5~), libkf5screen7 (>= 4:5.17.5), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.7.0) | libqt5quick5-gles (>= 5.7.0), libqt5sensors5 (>= 5.6.0), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 5)
+Filename: pool/preview/l/liblingmo/liblingmo_1.0.0_amd64.deb
+Size: 652652
+MD5sum: fe79386604553cff58e7afeae09e039c
+SHA1: cab6440f58e767de2b5a9e79734ee348a946a1e3
+SHA256: 851af0e79cd1173aefcea000e856a9b2499a15504c1f4bb898a7826f680927ec
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Library
+
+Package: liblingmo-filemanager
+Source: lingmo-filemanager
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Lingmo OS <lingmoos@foxmail.com>
+Installed-Size: 1245
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, qml-module-qtgraphicaleffects, kio, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5kiocore5 (>= 5.69.0), libkf5kiowidgets5 (>= 5.69.0), libkf5solid5 (>= 5.74.0), libkf5xmlgui5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.9.0~beta) | libqt5gui5-gles (>= 5.9.0~beta), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/preview/l/liblingmo-filemanager/liblingmo-filemanager_1.0.0_amd64.deb
+Size: 240884
+MD5sum: 17f4370f2db2cfd126e9f56fceded06d
+SHA1: 865d3a574728a711e4b6d7686127e6e14a1078c0
+SHA256: 7605f4021ec069d410fd016e6b42255212397098ceb1f601167366ed5050f15d
+Section: devel
+Priority: optional
+Homepage: https://lingmoos.com
+Description: Lingmo OS File Manager Lib
+
+Package: lingmo-calculator
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 283
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5qml5 (>= 5.1.0), libstdc++6 (>= 9)
+Filename: pool/preview/l/lingmo-calclator/lingmo-calculator_1.0.0_amd64.deb
+Size: 76124
+MD5sum: 0bb727735c2acad53cb9625228803530
+SHA1: 216f5fcc234da0a4d384e0181648ea0eae64bf7a
+SHA256: aae68c92fd56d31c0d82daf08bb39cfe30d4a1aad22e8fe405f830a509923da6
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Calculator
+
+Package: lingmo-core
+Version: 1.0.6
+Architecture: amd64
+Maintainer: LingmoOS Team <lingmoos@foxmail.com>
+Installed-Size: 2055
+Depends: accountsservice, python3-dbus, python3-pillow, python3-regex, qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, appmenu-gtk2-module, appmenu-gtk3-module, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libkf5coreaddons5 (>= 4.97.0), libkf5idletime5 (>= 4.96.0), libkf5windowsystem5 (>= 5.25.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6 (>= 2:1.2.99.901), libx11-xcb1 (>= 2:1.7.2), libxcb-composite0, libxcb-damage0, libxcb-dpms0, libxcb-image0 (>= 0.2), libxcb-record0, libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxtst6
+Filename: pool/preview/l/lingmo-core/lingmo-core_1.0.6_amd64.deb
+Size: 360672
+MD5sum: 4387f0c04e7b37d828cdda23da23e362
+SHA1: fa37c02cf3a64949d96d9c5913c80e208bc8dc08
+SHA256: bdf98d62007420b48cd7a4a0ccd7b424d15fe6ab672dcddfdc47b6937b239d47
+Section: devel
+Priority: optional
+Homepage: https://github.com/LingmoOS/OpenLingmo
+Description: Lingmo System Components
+
+Package: lingmo-cursor-themes
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Floating dream <lingmoos@foxmail.com>
+Installed-Size: 83437
+Filename: pool/preview/l/lingmo-cursor/lingmo-cursor-themes_1.0.0_amd64.deb
+Size: 4222916
+MD5sum: e32d22ed2a7a9c6799aa514c355fb9a4
+SHA1: e7949ac3c0221599e076b6690748272246099573
+SHA256: bfcc461abbba654ee17c3fd6f3efa8b7ce8fe5468ddc7404dabdb27af2006e1a
+Section: kde
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Cursor Theme
+
+Package: lingmo-daemon
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 65
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, python3-pyinotify, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: pool/preview/l/lingmo-daemon/lingmo-daemon_1.0.0_amd64.deb
+Size: 14600
+MD5sum: 20d51d3162b2a1ecc3f2c0616d973958
+SHA1: dbabfa21dd37295c7fe692ae68791fc6d981a4ee
+SHA256: d9c826843320cbf53bfdb8b37d9c763de333f55c64bca63c7be95398ad68b743
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Daemon.
+
+Package: lingmo-debinstaller
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 116
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libapt-pkg6.0 (>= 0.8.0), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/preview/l/lingmo-debinstaller/lingmo-debinstaller_1.0.0_amd64.deb
+Size: 28752
+MD5sum: 61d968764d2bca720b995222ebcf61b3
+SHA1: 5f5aab704ecc518f31981d2cf36ddd1cda7302de
+SHA256: 5b0d0d6bdcbe4ba864474851fc349b1d084f4a874b96d36e603b7e9e49591db8
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org/
+Description: LingmoOS Deb Installer
+
+Package: lingmo-desktop
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoSO <lingmoos@foxmail.com>
+Installed-Size: 145
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, qml-module-qtgraphicaleffects, liblingmo, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/preview/l/lingmo-desktop/lingmo-desktop_1.0.0_amd64.deb
+Size: 38772
+MD5sum: e1351f57201822282fd9035c77aaf3da
+SHA1: 918e9f42c5241ffef692f1398fec7beb8ffc8f16
+SHA256: 5715eebb88474663d00f42a61fe63bc3826d92fe41c28b530f96376de6753de1
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org/
+Description: LingmoOS Desktop
+
+Package: lingmo-dock
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 346
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtgraphicaleffects, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 5.35.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1)
+Filename: pool/preview/l/lingmo-dock/lingmo-dock_1.0.0_amd64.deb
+Size: 86140
+MD5sum: 95094253ed0fab663f96e3339c6da912
+SHA1: 35306f886f7e39ad853ebd7c833c5d82eaafefa1
+SHA256: a63883c900f30c809122f9c5758d1487be522c5b76c13e45fde4d64829ac799e
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Dock
+
+Package: lingmo-filemanager
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Lingmo OS <lingmoos@foxmail.com>
+Installed-Size: 497
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, qml-module-qtgraphicaleffects, liblingmo-filemanager, kio, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5coreaddons5 (>= 4.97.0), libkf5kiocore5 (>= 5.69.0), libkf5kiowidgets5 (>= 5.69.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/preview/l/lingmo-filemanager/lingmo-filemanager_1.0.0_amd64.deb
+Size: 93744
+MD5sum: b7b72a333631093a526e0233d08ee904
+SHA1: 2310a9dc26d939f4d71d686f2ecb7f8dcd44c811
+SHA256: ed737e7270664cabdb0790148698151f5dd0bca27ff5df19ddc0feebc453355b
+Section: devel
+Priority: optional
+Homepage: https://lingmoos.com
+Description: Lingmo OS File Manager
+
+Package: lingmo-icons
+Version: 1.0.6
+Architecture: all
+Maintainer: Lingmo OS <2422586862@qq.com>
+Installed-Size: 42191
+Filename: pool/preview/l/lingmo-icons/lingmo-icons_1.0.6_all.deb
+Size: 3138372
+MD5sum: 8becee1e26dc534be2ca73118e316bef
+SHA1: 9a9789edeeccb88fafbac71a3a849c9891c4784c
+SHA256: aba96194b84cf199108d7d47129a039f4eac1912bf54df4c818514868f3139ae
+Section: x11
+Priority: optional
+Homepage: https://lingmo.org
+Description: System software icon for LingmoOS
+
+Package: lingmo-kwin-plugins
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 364
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libkdecorations2-5v5 (>= 5.1.50+git20141206.0010+15.04), libkf5coreaddons5 (>= 4.99.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5)
+Filename: pool/preview/l/lingmo-kwin-plugins/lingmo-kwin-plugins_1.0.0_amd64.deb
+Size: 66928
+MD5sum: 1f1906674726525cf100765f11ef8937
+SHA1: ab0d8898b3c218be7b144169cfe3d6720d6d712a
+SHA256: dd729f595a117258f93e5468e8a331eb1aaf668cd278f37f10c2b92016c0f384
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS KWin Plugins
+
+Package: lingmo-launcher
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 333
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: pool/preview/l/lingmo-launcher/lingmo-launcher_1.0.0_amd64.deb
+Size: 70392
+MD5sum: 345127d693322f11e22fcb8197a324c3
+SHA1: ed56198a2c1937892aeaeefcdaad4b4ca382605d
+SHA256: 4f0b74071230d187633a4cff99ec2b71914bbff1a67f2dd83a95188f3813d86d
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Launcher
+
+Package: lingmo-qt-plugins
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 913
+Depends: libc6 (>= 2.29), libdbusmenu-qt5-2 (>= 0.3.2), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 5.69.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5quickcontrols2-5 (>= 5.7.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xdgiconloader3 (>= 2.0.0), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: pool/preview/l/lingmo-qt-plugins/lingmo-qt-plugins_1.0.0_amd64.deb
+Size: 198940
+MD5sum: e1e1cd7ab7c698adcc94104d2f4d3f70
+SHA1: 3a665453b744e34ab6aad3177a3ed64bb55570b3
+SHA256: 1c6983a864b0f680be39dc4dd9811c173ca35d36d586c585032cd123598c6060
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Qt Plugins
+
+Package: lingmo-screenlocker
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 189
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libc6 (>= 2.28), libgcc-s1 (>= 3.0), libpam0g (>= 0.99.7.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6
+Filename: pool/preview/l/lingmo-screenlocker/lingmo-screenlocker_1.0.0_amd64.deb
+Size: 40108
+MD5sum: 3a0ac2eea1079167ec95317d7465760c
+SHA1: a734ccb41a1fdb68f096f5b31e54c3bc2c0b1e69
+SHA256: 5ed84b24a6e200bdd6f249c1b38576c024e73232e0bbe1935daabedd8baaebd6
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Screen Locker
+
+Package: lingmo-screenshot
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 124
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: pool/preview/l/lingmo-screenshot/lingmo-screenshot_1.0.0_amd64.deb
+Size: 22000
+MD5sum: 7ecce8776bcc4203bfe0ad32bd7abe1e
+SHA1: 0729188cb5d5f870d76f8eb50014f6e5973e19a8
+SHA256: bf226944915e3321fe95f8401c094da7afa360976ac9e39733dbcb341a333aa1
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Screenshot
+
+Package: lingmo-sddm-theme
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 47
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, sddm
+Filename: pool/preview/l/lingmo-sddm-theme/lingmo-sddm-theme_1.0.0_amd64.deb
+Size: 7904
+MD5sum: eef549bcef4da34f23ad4ecd65609f70
+SHA1: 08bbecaa9375035f54d0c93a1b40e2dc416e8cdd
+SHA256: e0804d1cee2300ad3fbe9d15a5f740cdabfb58f10acf0ebd8e4468bdefb5b062
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Calculator
+
+Package: lingmo-settings
+Version: 1.0.6
+Architecture: amd64
+Maintainer: LingmoOS <lingmoos@foxmail.com>
+Installed-Size: 2457
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, qml-module-qtquick-dialogs, qml-module-qtquick-particles2, kscreen, libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6, libxcursor1 (>> 1.1.2), libxfixes3
+Filename: pool/preview/l/lingmo-settings/lingmo-settings_1.0.6_amd64.deb
+Size: 837364
+MD5sum: 538096e99c98c78076b18dbc9c1506b1
+SHA1: d6a440b4b7bfb576be2f423b67d6500b9c695f93
+SHA256: fc3467c5b2c5c67293cecc553b918906dabdc99cc17b9a05116832fd2efde059
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: OpenSwift Settings
+
+Package: lingmo-statusbar
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <support@lingmoos.com>
+Installed-Size: 929
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 5.35.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libxcb1
+Filename: pool/preview/l/lingmo-statusbar/lingmo-statusbar_1.0.0_amd64.deb
+Size: 168896
+MD5sum: af8d235fd88568360a85a3ca7ef9dc37
+SHA1: 79f39d98a59eb407dd1774dfdee2c55238374c53
+SHA256: cb3b1bccb3c0028bc9a789d3293a9c52d90e46e2a748cc2fa0a294312b9e816d
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Statusbar
+
+Package: lingmo-terminal
+Version: 1.0.0
+Architecture: amd64
+Maintainer: LingmoOS <2422586862@qq.com>
+Installed-Size: 1318
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, qml-module-qtquick-layouts, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtqml, qml-module-qtquick-window2, qml-module-qtquick-shapes, liblingmo, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/preview/l/lingmo-terminal/lingmo-terminal_1.0.0_amd64.deb
+Size: 274780
+MD5sum: b72fca58883684dd08312fde4c3c52f5
+SHA1: 8c2295cdbed06a5975ab16941ad495c05dbde89a
+SHA256: 6ea261cbc9e2d8d49ebb18805bce68d0559f34fdf794ae7caa1d821ca4911a4f
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Terminal
+
+Package: lingmo-texteditor
+Version: 1.0.6
+Architecture: amd64
+Maintainer: LingmoOS Packaging Team <2422586862@qq.com>
+Installed-Size: 225
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5syntaxhighlighting5 (>= 5.28.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.1.0) | libqt5quick5-gles (>= 5.1.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: pool/preview/l/lingmo-texteditor/lingmo-texteditor_1.0.6_amd64.deb
+Size: 53128
+MD5sum: 2bcfd5a4fe0f4dbf196da2006c515daa
+SHA1: e9f730baddcf4ff7358e50a7773d85521a877b2c
+SHA256: 1abddf74bc8c454ea1a75570a02c9ac9298c13469699d4ffb39910e200c92df7
+Section: devel
+Priority: optional
+Homepage: https://github.com/LingmoOS/texteditor
+Description: LingmoOS Texteditor
+
+Package: lingmo-updator
+Version: 1.0.6
+Architecture: amd64
+Maintainer: Lingmo OS <lingmoos@foxmail.com>
+Installed-Size: 374
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libstdc++6 (>= 4.1.1)
+Filename: pool/preview/l/lingmo-updator/lingmo-updator_1.0.6_amd64.deb
+Size: 292744
+MD5sum: 06a23bf31b48aaabafd01f9b19129bc2
+SHA1: 2b82a3cc2d9a346d790b8c976f36f91a2760cd75
+SHA256: 9f7463068507e88c8b35284f946a64766b39418a2f6fd042a59383dcf0bd72f6
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Updator.
+
+Package: lingmo-wallpapers
+Version: 1.0.6
+Architecture: amd64
+Maintainer: Lingmo OS Team <lingmoos@foxmail.com>
+Installed-Size: 2002
+Filename: pool/preview/l/lingmo-wallpapers/lingmo-wallpapers_1.0.6_amd64.deb
+Size: 1986192
+MD5sum: 4555b460f34875aa59e6bc51c695808d
+SHA1: 75c628d78bb0620d36391662323f9fba5837b920
+SHA256: 632ccbfaf86038607432f9880cd04eb155b4421a45f831d7d857ae7c3bd535cf
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org/
+Description: Lingmo OS Wallpapers
+
+Package: lingmoui
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Lingmo OS <support@lingmoos.com>
+Installed-Size: 5155
+Depends: qml-module-qtquick-controls2, qml-module-qtquick2, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 5.69.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5qml5 (>= 5.4.0), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1)
+Filename: pool/preview/l/lingmoui/lingmoui_1.0.0_amd64.deb
+Size: 760744
+MD5sum: 28c30fc1c3ddf15ff27e2d13ce36a621
+SHA1: 8d37364629bc69d933245d87a3dcf0ce40786982
+SHA256: 993e8edfad67916be9cd742ebf0f449117e88d2db6fc69edf6d2281298b6cb36
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org/
+Description: Lingmo OS UIKit
+
+Package: neofetch
+Version: 7.2.0
+Architecture: all
+Maintainer: Lingmo OS Team <cuteos@foxmail.com>
+Installed-Size: 353
+Recommends: chafa
+Filename: pool/preview/n/neofetch/neofetch_7.2.0_all.deb
+Size: 81264
+MD5sum: a089875a46d27ff99a331201598dd6f1
+SHA1: 0659940e51418c7dc24b70895c31943af04b7485
+SHA256: b1c66dba05bb80455f5b0d8911a9deb67974581c5a3cf99600e60e0909a234ee
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/LingmoOS/lingmo-neofetch
+Description: Shows Linux System Information with Distribution Logo
+ Neofetch is a cross-platform and easy-to-use system information
+ command line script that collects your Linux system information
+ and display it on the terminal next to an image, it could be your
+ distributions logo or any ascii art of your choice.
+

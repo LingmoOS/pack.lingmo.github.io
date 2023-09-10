@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64
+Codename: liykwy
+Components: preview
+Date: Sun, 10 Sep 2023 16:51:10 +0000
+Description: Official software package repository for Lingmo OS
+Label: Lingmo OS Packages
+Origin: Lingmo OS Official Repository
+Suite: preview
+MD5Sum:
+ 4a7857b1f06f7e8376198ce9fee7ff30              239 Release
+ c8745bec59e2b14b585acdd3a765937b            23467 preview/binary-amd64/Packages
+ 739664d93ae68d912e82da5006ee26c8             5181 preview/binary-amd64/Packages.gz
+SHA1:
+ c5e172f44b331d83d48eaa4f84262889baa09e5d              239 Release
+ c78d86901f665b3024d12086782455c595417cb5            23467 preview/binary-amd64/Packages
+ dd8ac65724fd8771e28aa4008ce341d6a4330bc1             5181 preview/binary-amd64/Packages.gz
+SHA256:
+ de45976bf7bacc26c4fb79c79ab0fe1fd96c072c418639b93c0e3bebf9b7be3e              239 Release
+ a6d299a25443596090fdb30352db809962b89358aca91c60457b007d47c04d36            23467 preview/binary-amd64/Packages
+ a696cd451a9d054c91c74cda44cf5a668fd2fd49b892daa1d56f6d3d21647776             5181 preview/binary-amd64/Packages.gz
+SHA512:
+ 59bf4b2d6713ccbb4bc17bd5fb7daf8482abe456e217efc6dbe8dd771d210d3ade028e22bdae1b00405221c84a7a2a0d26f0bd77967ceec985b0cf04751fa8e2              239 Release
+ 84fc6b065ab86c6ef07afb02097ec660ae38a81ff74b54b53cf242fc76dfe76216dcea12fc28918f79a5738f9cce65416bac9b7d4ebc2fc00073af9965b63dfd            23467 preview/binary-amd64/Packages
+ cb7a25cbf4bae34ffcf3fc8aeaccdb31a1d08fc75c030841c0f884af0b02e89dbd2cb978af1ff8887455d64a0966fb9d6f3b5a32e4e82b5b4c6a38f223fb8fa4             5181 preview/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEElPzvChygj/Wha9gb3P4kI93qicAFAmT98/8ACgkQ3P4kI93q
+icCOZgv/crxZctw3eQdHW5X0Jjry+fKRBshVgwLPl0t73GvaavRrV7mGizhDeQah
+/27aBKlg0rTCnhTi/eVcnbH3/kIZxMJ4UhMPeJMR6Xl3nx3gUVSUogh4jei02zCv
+iJpVrqTjzQ17LnpKMyZUdwl5AZPH37s9g6j5QrDtPab0MriUBQHJ0PCRY06fWdw+
+99F+oRtyNMo9vXuqVd36goICTO4+5j2sGyQNUlaQoY2b8/0XcYjJW9KExdJE9pIr
+a0dHH/a+1rwCHF3Y8wonjUeOOtYeDV+pHWoxP1mIUGbI4Xzgg9wjcKq8Bt3ZO2HY
+QI6gHBlK3fFSE4vjy6CEKHS4s/TfGAITRkl57pAQvfJYjxK6OinlOeBVFwc3d+vx
+DQ0qGEVnP5761IjtD0Wy4FQvrlhL1HsQUNBSZdM/83P4upLUwrEDweytuKFE6r22
+/KNOM9KO/8Axo53+Ks1vJTFqMYHRDd4hYldsx7bn8KYLWafdy/Gq1m3mzZiqoM4H
+IJB7zDZm
+=bXRF
+-----END PGP SIGNATURE-----
